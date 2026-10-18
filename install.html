@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New TAM Passport Mobile — Install</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; text-align: center; padding: 3rem 1.5rem; }
+    a.button {
+      display: inline-block; background: #007aff; color: #fff; text-decoration: none;
+      font-size: 1.15rem; font-weight: 600; padding: 1rem 2.5rem; border-radius: 12px;
+    }
+    p.hint { color: #666; margin-top: 1.5rem; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <h1>New TAM Passport Mobile</h1>
+  <p>Tap the button below in Safari on your iPhone to install.</p>
+  <!-- iOS OTA install: manifest.plist for release v3.0.0-dev-tam.
+       The url= parameter must be percent-encoded. -->
+  <a class="button" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fgithub.com%2Faccelist%2Fnew-tam-passport-mobile-ios-adhoc%2Freleases%2Fdownload%2Fv3.0.0-dev-tam%2Fmanifest.plist">Install App</a>
+  <p class="hint">Version 3.0.0 (31) · ad-hoc build · device must be registered in the provisioning profile.</p>
+</body>
+</html>
